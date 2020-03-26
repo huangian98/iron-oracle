@@ -1,5 +1,6 @@
 ---
 title: Action
+index: 1
 ---
 
 Use this table to inspire a discovery, event, character goal, or situation. A roll on this table can be combined with a Theme (see below) to provide an action and a subject. Then, interpret the result based on the context of the question and your current situation.

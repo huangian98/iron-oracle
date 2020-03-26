@@ -7,7 +7,8 @@ url: "https://blinks.github.io" # the base hostname & protocol for your site, e.
 twitter_username: hackerblinks
 github_username:  blinks
 collections:
-  - oracles
+  oracles:
+    sort_by: index
 
 # Build settings
 theme: minima

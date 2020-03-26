@@ -1,5 +1,6 @@
 ---
 title: Theme
+index: 2
 ---
 
 As with the Action oracle, this is an interpretative table which you can use to answer questions or generate new situations. Combined, the Action and Theme tables provide creative prompts suitable for most situations and questions. In fact, with some creative interpretations, it’s entirely possible to play with only these two tables.
