@@ -1,0 +1,11 @@
+.oracle li {
+    display: none;
+}
+
+.oracle li.active, .oracle li.near, .oracle li.far {
+    display: list-item;
+}
+
+.oracle li.active { color: #000; font-weight: bold; }
+.oracle li.near { color: #555; }
+.oracle li.far { color: #aaa; }
