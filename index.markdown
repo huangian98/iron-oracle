@@ -9,4 +9,4 @@ layout: home
 </div>
 {% endfor %}
 
-<script defer src="/assets/oracle.js"></script>
+<script defer src="{{ "/assets/oracle.js" | relative_url }}"></script>

@@ -2,8 +2,8 @@ title: Iron Oracle
 email: blinks@acm.org
 description: >-
   Oracles for Ironsworn.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/iron-oracle" # the subpath of your site, e.g. /blog
+url: "https://blinks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hackerblinks
 github_username:  blinks
 collections:
