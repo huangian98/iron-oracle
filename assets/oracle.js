@@ -59,8 +59,13 @@ Oracle.prototype.click = function() {
 // Register all oracle data.
 var os = document.getElementsByClassName("oracle");
 for (var i = 0; i < os.length; i++) {
+    var items = os[i].getElementsByTagName("li");
+    if (items.length == 0) {
+        items = os[i].getElementsByTagName("tr");
+    }
+
     var o = new Oracle(
-        os[i].getElementsByTagName("li"),
+        items,
         os[i].getElementsByClassName("roll")[0]);
     o.register();
 }

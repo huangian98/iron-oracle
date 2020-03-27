@@ -1,11 +1,11 @@
-.oracle li {
+.oracle li, .oracle tbody tr {
     display: none;
 }
 
-.oracle li.active, .oracle li.near, .oracle li.far {
+.oracle .active, .oracle .near, .oracle .far {
     display: list-item;
 }
 
-.oracle li.active { color: #000; font-weight: bold; }
-.oracle li.near { color: #555; }
-.oracle li.far { color: #aaa; }
+.oracle .active { color: #000; font-weight: bold; }
+.oracle .near { color: #555; }
+.oracle .far { color: #aaa; }
