@@ -1,0 +1,57 @@
+---
+title: Location Descriptor
+index: 6
+---
+
+Use this oracle to add detail to the Location or Coastal Waters Location oracles, or by itself to generate a description of a location. Roll more than once for extra detail.
+
+- High
+- Remote
+- Exposed
+- Small
+- Broken
+- Diverse
+- Rough
+- Dark
+- Shadowy
+- Contested
+- Grim
+- Wild
+- Fertile
+- Blocked
+- Ancient
+- Perilous
+- Hidden
+- Occupied
+- Rich
+- Big
+- Savage
+- Defended
+- Withered
+- Mystical
+- Inaccessible
+- Protected
+- Abandoned
+- Wide
+- Foul
+- Dead
+- Ruined
+- Barren
+- Cold
+- Blighted
+- Low
+- Beautiful
+- Abundant
+- Lush
+- Flooded
+- Empty
+- Strange
+- Corrupted
+- Peaceful
+- Forgotten
+- Expansive
+- Settled
+- Dense
+- Civilized
+- Desolate
+- Isolated
