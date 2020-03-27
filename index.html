@@ -2,7 +2,8 @@
 layout: home
 ---
 
-{% for oracle in site.oracles %}
+{% assign oracle_by_index = site.oracles | sort: "index" %}
+{% for oracle in oracle_by_index %}
 <div class="oracle row">
   <div class="col-sm-4">
     <h3>{{ oracle.title }}
