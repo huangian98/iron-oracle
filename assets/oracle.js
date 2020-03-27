@@ -1,3 +1,7 @@
+function die(n) {
+    return Math.floor(Math.random() * n) + 1;
+}
+
 /** An oracle, pulled from the HTML. */
 function Oracle(list, button) {
     this.list = list;
@@ -24,6 +28,7 @@ Oracle.prototype.register = function() {
     o.button.addEventListener("click", function() { o.click(); });
 };
 
+/** Find the index that covers not more than this much weight. */
 Oracle.prototype.indexByWeight = function(weight) {
     var length = this.list.length;
     for (var i = 0; i < length; i++) {
@@ -57,15 +62,35 @@ Oracle.prototype.click = function() {
 };
 
 // Register all oracle data.
-var os = document.getElementsByClassName("oracle");
+var os = $(".oracle");
 for (var i = 0; i < os.length; i++) {
     var items = os[i].getElementsByTagName("li");
-    if (items.length == 0) {
-        items = os[i].getElementsByTagName("tr");
-    }
-
     var o = new Oracle(
         items,
         os[i].getElementsByClassName("roll")[0]);
     o.register();
+}
+
+// Implement the navbar's "Roll" button.
+function roll() {
+    $("#roll-result").fadeOut('fast', function() {
+        var e = $("#roll-result");
+        var action = die(6);
+        var challenge = [die(10), die(10)];
+        challenge.sort((a, b) => a - b);
+
+        e.removeClass("font-weight-bold text-danger text-warning text-success");
+        if (challenge[0] == challenge[1]) {
+            e.addClass('font-weight-bold');
+        }
+        if (action < challenge[0]) {
+            e.addClass('text-danger');
+        } else if (action < challenge[1]) {
+            e.addClass('text-warning');
+        } else {
+            e.addClass('text-success');
+        }
+
+        e.text(`[${action}] vs <${challenge[0]}> <${challenge[1]}>`).fadeIn();
+    });
 }
