@@ -1,0 +1,109 @@
+---
+title: Odds (d100)
+index: 20
+---
+
+Ask a yes/no question: Decide the odds of a 'yes', and roll to check the answer -- OR, pick two: envision two options. Rate one as 'likely', and roll to see if it is true. If not, it is the other.
+
+If something is _almost certain,_ 11+ is a yes. If _likely,_ 26+ is a yes. If _50/50,_ 51+ is a yes. If _unlikely,_ 76+ is a yes. If only a _small chance,_ 91+ is a yes.
+
+- 01
+- 02
+- 03
+- 04
+- 05
+- 06
+- 07
+- 08
+- 09
+- 10
+- **11** EXTREME/TWIST
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- **22** EXTREME/TWIST
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- **33** EXTREME/TWIST
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- **44** EXTREME/TWIST
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- **55** EXTREME/TWIST
+- 56
+- 57
+- 58
+- 59
+- 60
+- 61
+- 62
+- 63
+- 64
+- 65
+- **66** EXTREME/TWIST
+- 67
+- 68
+- 69
+- 70
+- 71
+- 72
+- 73
+- 74
+- 75
+- 76
+- **77** EXTREME/TWIST
+- 78
+- 79
+- 80
+- 81
+- 82
+- 83
+- 84
+- 85
+- 86
+- 87
+- **88** EXTREME/TWIST
+- 89
+- 90
+- 91
+- 92
+- 93
+- 94
+- 95
+- 96
+- 97
+- 98
+- **99** EXTREME/TWIST
+- **00** EXTREME/TWIST
