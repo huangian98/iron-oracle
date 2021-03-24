@@ -1,6 +1,6 @@
 # Iron Oracle
 
-A webapp for asking the Ironsworn Oracle, "what next?"
+A webapp for asking the [Ironsworn][1] Oracle, "what next?"
 
 ## Usage
 
@@ -16,3 +16,5 @@ Then, from the same directory, you can start up the static site at http://localh
 ```
 bundle exec jekyll serve
 ```
+
+[1]: https://www.ironswornrpg.com
