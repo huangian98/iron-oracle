@@ -11,7 +11,7 @@ gem install bundler
 bundle install
 ```
 
-Then, from the same directory, you can start up the static site at http://localhost:4000
+Then, from the same directory, you can start up the static site at http://localhost:4000/iron-oracle/
 
 ```
 bundle exec jekyll serve
