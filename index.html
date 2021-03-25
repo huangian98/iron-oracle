@@ -3,16 +3,20 @@ layout: home
 ---
 
 {% assign oracle_by_index = site.oracles | sort: "index" %}
-{% for oracle in oracle_by_index %}
-<div class="oracle row">
-  <div class="col-sm-4">
-    <h3>{{ oracle.title }}
-      <button type="button" class="roll btn btn-sm btn-dark">Roll</button>
-    </h3>
+<div class="accordion" id="accordionOracle">
+  {% for oracle in oracle_by_index %}
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="oracle-{{oracle.index}}">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{oracle.index}}" aria-expanded="false" aria-controls="collapse-{{oracle.index}}">
+        {{ oracle.title }}
+      </button>
+    </h2>
+    <div id="collapse-{{oracle.index}}" class="accordion-collapse collapse" aria-labelledby="heading-{{oracle.index}}" data-bs-parent="#accordionOracle">
+      <div class="accordion-body oracle">
+        {{ oracle | markdown }}
+        <button type="button" class="roll btn btn-sm btn-dark">Roll</button>
+      </div>
+    </div>
   </div>
-
-  <div class="col">
-    {{ oracle | markdown }}
-  </div>
+  {% endfor %}
 </div>
-{% endfor %}
